@@ -1,7 +1,7 @@
 package EstructurasControl.Condicional;
 
 
-public class IfElse {
+public class EC_Condicionales {
     public static void main(String[] args) {
 
         If();
