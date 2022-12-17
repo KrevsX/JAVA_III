@@ -1,7 +1,7 @@
 package EstructurasControl.Condicional;
 
 
-public class IfElse {
+public class EC_Condicionales {
     public static void main(String[] args) {
 
         If();
@@ -12,7 +12,7 @@ public class IfElse {
 
     public static void If() {
 
-        int edad = 18;
+        int edad = 19;
         boolean esMayor = edad >= 18;
 
         if (esMayor) {
@@ -25,8 +25,8 @@ public class IfElse {
     }
 
     public static void IfElse() {
-        int edad = 19;
-        if (edad >= 18) {
+        int edad = 20;
+        if (edad >= 19) {
             System.out.println("Es Mayor de Edad....");
 
         } else {
@@ -36,7 +36,7 @@ public class IfElse {
 
     public static void IfElseIf() {
 
-        String dia = "Lunes";
+        String dia = "Martes";
 
         //Ejemplo de comparacion
 //        boolean resultado = dia.equals("Lunes");
